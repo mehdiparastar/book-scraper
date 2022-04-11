@@ -30,7 +30,7 @@ const scraperObject = {
 
     await page.waitForSelector("#customized-menu");
 
-    await page.type("input[id=ostans]", "شهرداري عجب شیر", { delay: 100 });
+    await page.type("input[id=ostans]", "شهرداري عجب شير", { delay: 100 });
     await page.keyboard.press('Enter')
 
     console.log(login);
